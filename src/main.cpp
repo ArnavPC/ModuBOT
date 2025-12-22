@@ -78,7 +78,7 @@ void loop() {
         }
 
         if (rcCal.isActive()) {
-            rcCal.sample(state.channels, 16);
+            rcCal.sample(state.channels, 2);
             stopAllMotors();
             return;
         }

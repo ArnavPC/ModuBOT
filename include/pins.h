@@ -32,7 +32,7 @@ static constexpr MotorPins MOTOR_PINS[] = {
 
 static constexpr size_t NUM_MOTORS = sizeof(MOTOR_PINS) / sizeof(MotorPins);
 
-// FlySky i-BUS is non-inverted, 115200 baud. Point this to the UART wired to the receiver.
+// ESP32 receiver forwards control data via UART (non-inverted, 115200 baud).
 #define SBUS_SERIAL Serial1
 static constexpr uint32_t SBUS_BAUD = 115200;
 

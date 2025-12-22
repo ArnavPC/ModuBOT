@@ -32,7 +32,8 @@ void RCCalibration::sample(const int16_t *channels, size_t count) {
         return;
     }
 
-    for (size_t i = 0; i < count && i < 16; ++i) {
+    // Only calibrate first 2 channels (throttle/steering)
+    for (size_t i = 0; i < count && i < 2; ++i) {
         int16_t v = channels[i];
         auto &c = data_[i];
         if (!c.initialized) {
