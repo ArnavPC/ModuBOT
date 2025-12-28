@@ -98,3 +98,13 @@ MIT
 ## Author
 
 Arnav – ModularBOT Project
+
+## Chassis Design
+
+Here are the CAD designs for the main frame and a photo of the welded chassis so far.
+
+![CAD Design 1](assets/chassis_1.png)
+
+![CAD Design 2](assets/chassis_2.png)
+
+![Welded Chassis](assets/chassis_3.png)
